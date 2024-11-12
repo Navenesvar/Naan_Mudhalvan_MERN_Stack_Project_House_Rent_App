@@ -1,44 +1,65 @@
 # House Rent App (MERN Stack)
-This is a House Rent application built using the MERN stack (MongoDB, Express, React, Node.js) that allows three types of users: Admin, Owner, and Renter. The app provides functionalities such as managing users, properties, and bookings for the Admin, while Owners can add/edit properties and Renters can book properties.
+
+This project is a **House Rent App** built with the **MERN stack** (MongoDB, Express, React, Node.js). It is designed to manage and streamline the process of renting properties. The application supports three types of users:
+
+- **Admin**: Manages users, properties, and bookings.
+- **Owner**: Adds, edits, and manages properties.
+- **Renter**: Views properties and books them.
 
 ## Features
-### Renter/Tenant
-Create an account and log in using email and password.
-View all available properties on the dashboard.
-Click on a property to get detailed information about the property and owner.
-Fill in a small form to express interest in renting the property.
-Track booking status, which initially appears as "Pending" and can be updated by the property owner.
-### Admin
-Approve users as Owner to allow them to add properties.
-Monitor and manage all properties, bookings, and users (Renter and Owner).
-Enforce platform policies, terms of service, and privacy regulations.
-### Owner
-Get approval from the Admin to activate the Owner account.
-Perform CRUD operations on properties (Add, Edit, Delete).
-Change property availability and status.
-### Getting Started
-### Prerequisites
-Before you can run the app, make sure you have the following installed on your system:
 
-Node.js (LTS version preferred)
-MongoDB (locally installed or use a cloud database like MongoDB Atlas)
-## Steps to Start the App
-### Step 1: Clone the Repository
-#### Clone the repo to your local machine:
+### **For Renters**
+- **Account Creation & Login**: Renters can sign up and log in using their email and password.
+- **View Properties**: Renters can view a list of available properties.
+- **Get Information**: By clicking on a property, Renters can view detailed information about the property and the owner.
+- **Send Booking Request**: Renters can fill out a form to request a property.
+- **Booking Status**: Renters can track the status of their booking. The status will initially show as "Pending" and will be updated by the property owner.
+
+### **For Admin**
+- **User Management**: Admin can approve users as **Owner** to allow them to list properties.
+- **Property & Booking Management**: Admin can view all properties and manage bookings.
+- **Platform Policies**: Admin is responsible for enforcing platform rules, terms of service, and privacy policies.
+
+### **For Owners**
+- **Account Activation**: Owners must first be approved by Admin before they can list properties.
+- **Property Management**: After approval, Owners can perform CRUD operations on properties (Create, Read, Update, Delete).
+- **Availability & Status**: Owners can update the availability and status of their properties.
+
+## Getting Started
+
+### Prerequisites
+- **Node.js** (preferably LTS version)
+- **MongoDB** (you can use MongoDB locally or with a cloud service like MongoDB Atlas)
+
+### Setup Instructions
+
+#### Step 1: Clone the Repository
+Clone the repository to your local machine:
+
+```bash
 git clone https://github.com/Navenesvar/Naan_Mudhalvan_MERN_Stack_Project_House_Rent_App.git
-### Step 2: Backend Setup
-#### Navigate to the backend directory:
+```
+#### Step 2: Backend Setup
+Navigate to the backend directory:
+```bash
 cd Naan_Mudhalvan_MERN_Stack_Project_House_Rent_App/backend
+```
 #### Run the following commands
+```bash
 npm install
 npm start
+```
 The backend will run on http://localhost:8000 as per configuration.
-### Step 3: Frontend Setup
+#### Step 3: Frontend Setup
 #### Navigate to the frontend directory:
+```bash
 cd Naan_Mudhalvan_MERN_Stack_Project_House_Rent_App/frontend
+```
 #### Run the following commands
+```bash
 npm install
 npm start
+```
 The frontend will run on http://localhost:3000 by default.
 
 ### Technologies Used
