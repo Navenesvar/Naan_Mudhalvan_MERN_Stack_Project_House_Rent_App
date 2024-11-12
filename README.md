@@ -62,7 +62,7 @@ npm start
 The frontend will run on http://localhost:3000 by default.
 
 ### Technologies Used
-Frontend: React.js, Material UI, Axios
-Backend: Node.js, Express, MongoDB
-Authentication: JWT (JSON Web Token) for user authentication
-State Management: React hooks (useState, useEffect)
+- Frontend: React.js, Material UI, Axios
+- Backend: Node.js, Express, MongoDB
+- Authentication: JWT (JSON Web Token) for user authentication
+- State Management: React hooks (useState, useEffect)
