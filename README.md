@@ -18,7 +18,6 @@ This project is a **House Rent App** built with the **MERN stack** (MongoDB, Exp
 ### **For Admin**
 - **User Management**: Admin can approve users as **Owner** to allow them to list properties.
 - **Property & Booking Management**: Admin can view all properties and manage bookings.
-- **Platform Policies**: Admin is responsible for enforcing platform rules, terms of service, and privacy policies.
 
 ### **For Owners**
 - **Account Activation**: Owners must first be approved by Admin before they can list properties.
